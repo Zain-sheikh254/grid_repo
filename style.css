@@ -1,0 +1,239 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* background-color: black; */
+    
+}
+
+
+.parent{
+    position: relative;
+    left: 50px;
+    top: 50px;
+}
+
+.container{
+    display: grid;
+    row-gap: 20px;
+    column-gap: 5px;
+    grid-template-rows: 150px 150px; 
+    grid-template-columns: 350px 350px 200px 100px;
+   
+}
+
+.box1{
+    border: 2px solid aqua;
+    padding: 12px;
+    background-color: aqua   ;  
+}
+.box2{
+    border: 2px solid blue;
+    padding: 12px;
+    background-color: blue ;  
+}
+.box3{
+    /* border: 2px solid green; */
+    padding: 12px;
+}
+
+.box3 img{
+    position: relative;
+    right: 12px;
+    bottom: 12px;
+    width: 200px;
+    height: 150px;
+}
+
+.box8 img{
+    position: relative;
+    right: 15px;
+    bottom: 12px;
+    width: 200px;
+    height: 150px;
+}
+
+.box13 img{
+    position: relative;
+    right: 15px;
+    bottom: 15px;
+    width: 175px;
+    height: 150px;
+}
+
+.box14 img{
+    position: relative;
+    right: 15px;
+    bottom: 15px;
+    width: 175px;
+    height: 150px;
+}
+
+.box15 img{
+    position: relative;
+    right: 12px;
+    bottom: 15px;
+    width: 350px;
+    height: 310px;
+}
+
+.box16 img{
+    position: relative;
+    right: 12px;
+    bottom: 15px;
+    width: 200px;
+    height: 150px;
+}
+
+
+
+
+.container1{
+    /* border: 2px solid red; */
+    display: grid;
+    row-gap: 10px;
+    column-gap: 5px;
+    grid-template-rows: 70px 70px; 
+    grid-template-columns: 70px 70px;
+}
+.box4{
+    background-color: red;
+    border: 2px solid red;
+    padding: 12px;
+}
+.box5{
+    background-color: yellow;
+    border: 2px solid yellow;
+    padding: 12px;
+}
+.box6{
+    background-color: blueviolet;
+    border: 2px solid blueviolet;
+    padding: 12px;
+}
+.box7{
+    background-color: chocolate;
+    border: 2px solid chocolate;
+    padding: 12px;
+}
+
+.container2{
+    display: grid;
+    grid-template-columns: 200px ;
+    grid-template-rows: 150px; 
+    position: relative;
+    bottom: 160px;
+}   
+
+.box8{
+    /* border: 2px solid green;  */
+    padding: 12px;
+}
+
+.container3{
+    /* border: 2px solid red; */
+    display: grid;
+    row-gap: 10px;
+    column-gap: 5px;
+    grid-template-rows: 70px 70px; 
+    grid-template-columns: 70px 70px;
+    position: relative;
+    bottom: 150px;
+    left: 205px;
+}
+
+.box9{
+    background-color: red;
+    border: 2px solid red;
+    /* border: 2px solid green; */
+    padding: 12px;
+}
+.box10{
+    background-color: yellow;
+    border: 2px solid yellow;
+    padding: 12px;
+}
+.box11{
+    background-color: blueviolet;
+    border: 2px solid blueviolet;
+    padding: 12px;
+}
+.box12{
+    background-color: chocolate;
+    border: 2px solid chocolate;    
+    padding: 12px;
+}
+
+.container4{
+    display: grid;
+    column-gap: 5px;
+    grid-template-columns: 175px 172px ;
+    grid-template-rows: 150px 150px; 
+    position: relative;
+    right: 205px;
+    
+}  
+
+.box13{
+    /* border: 2px solid green; */
+    padding: 12px;
+}
+.box14{
+    /* border: 2px solid green; */
+    padding: 12px;
+    /* position: relative;
+    left: 250px; */
+}
+
+.container5{
+    display: grid;
+    row-gap: 20px;
+    column-gap: 5px;
+    grid-template-rows: 310px 150px; 
+    grid-template-columns: 350px;
+    position: absolute;
+    left: 355px;
+    bottom: -20px;
+}
+
+.box15{
+    /* border: 2px solid green; */
+    padding: 12px;
+}
+
+.container6{
+    display: grid;
+    column-gap: 5px;
+    grid-template-columns: 200px 145px ;
+    grid-template-rows: 150px 150px; 
+    position: relative;
+    bottom: 160px;
+    /* position: absolute; */
+    left: 355px;
+    bottom: 330px;
+}   
+
+.box16{
+    /* border: 2px solid green; */
+    padding: 12px;
+}
+.box17{
+    background-color: rgb(76, 102, 149);
+    border: 2px solid rgb(76, 102, 149);;
+    padding: 12px;
+    /* position: relative;
+    left: 50px; */
+}
+
+.container7{
+    display: grid;
+    grid-template-rows: 150px 150px; 
+    grid-template-columns: 350px;
+    position: relative;
+    top: 10px;
+}
+
+.box18{ 
+    background-color: greenyellow;
+    border: 2px solid greenyellow;
+    padding: 12px;
+}
